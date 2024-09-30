@@ -1,0 +1,92 @@
+:root{
+    --primary: #3498db
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: white;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+header, main, footer {
+    padding: 15px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+h2 {
+    color: var(--primary);
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ccc8c8;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #27ae60;
+}
+
+footer {
+    color: white;
+    background-color: var(--primary);
+    text-align: center;
+}
